@@ -39,8 +39,17 @@ h2 {
   font-family: var(--fontHead);
 }
 
-p {
+label {
   font-family: var(--fontText);
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+p, select, option, input {
+  font-family: var(--fontText);
+  font-size: 20px;
 }
 
 .button {
@@ -49,7 +58,11 @@ p {
   height: 200px;
   border: solid;
   border-radius: 20%;
+
 }
+
+
+
 
 /* -- HEADER -- */
 header {
@@ -84,54 +97,20 @@ header {
 /* Hero */
 .sectionHero {
   display: flex;
-  flex-direction: column;
-  align-content: center;
+  align-content: space-evenly;
   justify-content: space-evenly;
-}
-.heroHeading {
-  width: 50%;
-  text-align: center;
-}
-
-.heroIntro {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: space-around;
-}
-
-.heroParagraph {
-  text-align: center;
-}
-
-.heroImg {
-  max-width: 50%;
-}
-
-/* Gallery */
-.sectionGallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
-/* Delete */
-
-.sectionDelete {
-  display: flex;
-  align-content: center;
-  justify-content: center;
 }
 
 .deleteButton {
-  background-color: var(--accentColorThree);
-  transition: 4s;
-}
-.deleteButton:hover {
-  background-color: red;
+  font-family: var(--fontHead);
+  width: 50px;
+  height: 25px;
+  border: solid;
+  border-radius: 20%; 
+  font-size: 70%;
+  text-align: left;
 }
 
-/* FOOTER */
 /* -- FOOTER -- */
 .footer {
   display: flex;

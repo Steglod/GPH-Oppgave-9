@@ -27,3 +27,11 @@
 - Personvernserklæring / TOS
 - SoMe
 - Kreditasjon
+
+## Hvordan Lage Gjøre liste
+
+- Trenger eit input field
+- Trengere Output field
+- Trenger knapp som tar tekst fra input field og legger det til i output field
+- Trenger knapper som kan fjerne individuelle ellemeenter
+- Trenger Knapp som fjerner alle ellementer
